@@ -5,33 +5,12 @@
 <title> HAMMER</title>
 <link rel="shortcut icon" href="1616ico.ico">
 <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Baloo+Thambi|Fjalla+One" rel="stylesheet">
-
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=0.25, minimum-scale=0, user-scalable=no, target-densitydpi=medium-dpi" /><!--모바일페이지크기조절메타태그--> 
 <script type="text/javascript" src="jquery-3.1.1.min.js"></script>
 
 <!-- 탑메뉴 -->
 
 <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.6.2/css/font-awesome.min.css">
-
-
-<!-- 홈슬라이드 -->
-	<meta http-equiv='X-UA-Compatible' content='IE=edge'>	
-	<!--<meta name="viewport" content="height=device-height,width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">-->
-	<meta property="og:site_name" content="VI Simple Slider">
-    <meta property="og:title" content="VI Simple Slider">
-    <meta name="description" content="VI Simple Slider 예제 및 다운로드" />
-    <meta property="og:description" content="VI Simple Slider 예제 및 다운로드">    
-    <meta property="og:url" content="http://naminsik.com//blog/labfile/plugin.viSimpleSlider/">
-    <link rel="image_src" href="http://naminsik.com//blog/labfile/plugin.viSimpleSlider/tumbnail.plugin.viSimpleSlider.jpg" />
-    <meta property="og:image" content="http://naminsik.com//blog/labfile/plugin.viSimpleSlider/tumbnail.plugin.viSimpleSlider.jpg">
-    <meta property="fb:app_id" content="195353980540001" />
-    
-	<link rel="stylesheet" href="./css/reset.css">
-	<link rel="stylesheet" href="./css/viSimpleSlider.css">
-	<meta name="apple-mobile-web-app-capable" content="yes" />
-	<script type="text/javascript" src="./js/jquery-1.11.1.min.js"></script>
-	<script type="text/javascript" src="./js/jquery.easing.js"></script>	
-	<script type="text/javascript" src="./js/vinyli.viSimpleSlider.js"></script>
 
 
 
@@ -136,7 +115,6 @@ a {
         width: 80px;
         margin-left: 0px;
         margin-top: 15px;
-        
 }
 .toplogo li{    
          padding: 0 5px 0 5px;      
@@ -174,16 +152,15 @@ html { box-sizing: border-box; }
 *, *:before, *:after { box-sizing: inherit; }
 
 body {
-  background: #fafafa;
+  
   font-family: "Roboto", sans-serif;
-
   font-size: 14px;
-
+  margin: 0;
 }
 
 a { text-decoration: none; }
 
-.container { 
+.container {
   width: 1200px;
  
   margin: auto;
@@ -251,11 +228,11 @@ nav ul li ul li {
 nav ul li ul li:first-child { border-top: none; }
 
 nav ul li ul li a {
-   
+     
   background: #efeeea;
   display: block;
   padding: 20px 14px;
- z-index :5; 
+
 }
 
 nav ul li ul li a:hover { background: #efeeea; }
@@ -268,97 +245,155 @@ nav .fa.fa-angle-down { margin-left: 6px; }
 
 
 
+/*                     -------------- 바디CSS시작 --------------                     */
 
 
 
 
+.h_series_wrapper{
+    color: #c6c6c6;
+    background :#ffffff;
+    padding:0px 0 70px 0;
+    width: 100%;
+    height: 1500px;
+    margin: 0 auto;
+    
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.wrapper {
-
-        margin:0 auto;
-        text-align:center;
-        overflow: hidden;
-        width: 100%;
-
- }
-
-
-/*  메인 슬라이드 작용옛날버전 
-
-
-.wrapper_mainimg {
-        background-image: url(main_img2_size1.png);
+.h_series{
+        background-image: url(a1ms_series_banner.png);  
+        background-position: center;
+        max-width:2000px;
+        min-width:1000px;
+        height:300px;
+        margin: 0 auto;
+       
         background-repeat: no-repeat;
-        background-position: center top;
-        width:100%;
         overflow: hidden;
-        position: relative;
-        height: 666px;
-        padding:0; text-align:center;
-
+        
+       
+    
 }
 
-
-
-.arrow{
-  position: relative;
-  max-width: 1700px;
-  min-width: 1000px;
-  margin: 0 auto;
-}
-
-
-#right{
-        cursor:pointer;
-        width: 25px;
-        height: 35px;
-        position: absolute;
-        top: 300px;
-        right:0px;
-        padding-right:50px;
-
-
-
-}
-
-#left {
-        cursor:pointer;
-        width: 25px;
-        height: 35px;
-        position: absolute;
-        top: 300px;
-        left:0px;
-        padding-left:50px;
-
-}
-
-
-*/
-
-.case{
+.h_series img{
+        width: 2000px;
+        margin:0 auto;
         display:block;
+
+}
+.h_product_bg{
         width:100%;
+        height:1400px;
+        background: #ebebeb;
+        padding: 90px 0 ;
+        
+}
+.h_product {
+        width: 1300px;
+        height:35px;
+        margin: 0 auto;
+        padding: 3px 0 3px 0;
+        background: #b60000;
+        border-radius: 0 20px 20px 0;
+        padding: 4px 4px;
+        font-size: 18px;
+       
+        
+    
+
+}
+.h_product_list{
+        width: 1300px;
+        padding: 70px 0 0 30px;
+        margin: 0 auto;
+        position: relative; 
+        
+        
+     
+}
+.h_product_list img {
+        position: absolute;
+        left: 25px;
+        display: block;
+        padding: 15px 0 0 5px;
+        width: 240px;
+        
+}
+.h_product_list li{
+       
+        margin-right: 110px;
+        margin-bottom: 90px;
+        float: left;
+        
+}
+
+.h1_wrap{
+        position: relative;
+        width: 300px;
+        height: 420px;
+        padding: 40px 10px 30px 10px;
+        border-radius: 4px;
+        background: #ffffff;
+
+       
+
+     
+     
+       
+}
+
+.h_product_white{
+        position: absolute;
+        width:300px;
+        height:85px;
+        top:305px;
+        left: 0px;
+        float: left;
+        color:#464646;
+        
+    
+
+}
+.h_product_white h{
+        
+        font-size: 32px;
+        background: #b60000;
+        color:#e0e0e0;
+        padding: 5px 80px 8px 10px;
+        border-radius: 0 30px 30px 0;
+        
+}
+
+.h_product_white {
+        
+        font-size: 27px;
+
+       
 
 }
 
-.case img{
-        width:100%
+.h_product_white p{
+        font-size: 20px;
+        display: block;
+        margin:0;
+        padding:0;
+       
+}
+#h1_case_color{
+        position: absolute;
+        top: 283px;
+        left: 10px;
+        width:25px;
+        height:25px;
+        border-radius: 30px 30px 30px 30px;
+        background: #bababa;
+
+}
+.h1_casename{
+        position: absolute;
+        font-size: 20px;
+        top:58px;
+        left: 35px;
 }
 
 
@@ -366,92 +401,8 @@ nav .fa.fa-angle-down { margin-left: 6px; }
 
 
 
-.wrapper_middle_bg{
-    background-image: url(main_bg.png);
-    padding:23px 0 165px 0;
-    margin:0 auto;
-    text-align:center;
-    overflow: hidden;
-    max-width: 100%;
-    min-width: 1000px;
-
-}
-.wrapper_middle{
-
-    margin:0 auto;
-    width:1400px;
-    height: 650px;
 
 
-
-}
-.middle_title{
-
-        color: black;
-        width: 1000px;
-    font-size:35px;
-    padding: 30px 0 40px 0;
-    float:left;
-    list-style: none;
-    margin-left:203px;
-    margin-top:25px;
-
-    text-align: center;
-    font-family: 'Alegreya Sans SC', sans-serif;
-  
-
-
-}
-.title_sub{
-        color: #5f5f5f;
-        font-size:30px;
-        background-color: white;
-        background-: 0 10px;
-
-}
-.middle_title li{
-        margin-bottom: 4px;
-}
-
-.middle_img_wrapper{
-    position: relative;
-    top: 25px;
-    margin: 0;
-    padding: 0;
-    height: 480px;
-    width: 1343px;
-    margin:0 auto;
-    clear: both;
-
-
-}
-.middle_img_wrapper ul{
-    position: absolute;
-    margin: 0;
-    padding: 0;
-
-}
-.middle_img_wrapper ul li{
-cursor:pointer;
-float: left;
-margin-right: 8px;
-margin-bottom: 8px;
-
-}
-/*
-.middle_img_wrapper ul li :hover{
-  width: 2%;
-  -webkit-transition: width 0.5s; /* For Safari 3.1 to 6.0
-    transition: width 0.5s;
-}
-*/
-
-
-.middle_img_wrapper li img{
-
-  width: 100%;
-  display: block;
-}
 .footer {
     color: #a9a9aa;
     font-size:9pt;
@@ -482,7 +433,7 @@ margin-bottom: 8px;
          float:left;
         width:58px;
         margin-right: 12px;
-     
+    
 }
 .ft_main_p{
         
@@ -497,11 +448,12 @@ margin-bottom: 8px;
 .ft_sub_p{ 
       width: 740px;
         
-        float : left;
+        float : left; 
         
 }
 
 .footer_icon{
+
 
       float : left;
 
@@ -510,6 +462,7 @@ margin-bottom: 8px;
           
 }
 .footer_icon ul{
+        display:block; padding:0; margin:0;
         width:200px;
         margin-left:0px;
         margin-top:5px;
@@ -637,105 +590,125 @@ margin-bottom: 8px;
     <!--                상단고정메뉴끝                   -->
     <!--                홈화면내용시작                   -->
 
-<div class="wrapper">
-
-
-
-
-
-
-
-
-
-
-	<div id="testDiv" style="
-        left:50%; transform:translateX(-50%); 
-	overflow:hidden; 
-	width:2400px;
-        height:660px;
-        text-align:center;
-     ">
-     
-	    <ul>
-              
-	        <li>
-	            <img src="main_bn_h4.png">
-	        </li>
-	        <li>
-	            <img src="main_bn_i3al.png">
-	        </li>
-	       <li data-link="#slide" data-target="_blank"> 
-	            <img src="main_img2_size1.png">
-	        </li>
-	        <li>
-	            <img src="main_img2_size3.png">
-                </li>
-
-	        
-	    </ul>
-	</div>	
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- 메인 슬라이드 옜날 버전
-
-    <div class="wrapper_mainimg">
-
-
-                    <div class="caseonly">
-                        <div class="case">
-
+<div class="h_series_wrapper">
+        <div class="h_series_banner"> </div>
+        <div class="h_series">
+              <!--  <img src="a1ms_series_banner.png"> -->
+        </div>
+        
+        <div class="h_product_bg">
+        <div class="h_product">
+                PRODUCT / ACCESSORY / ACCESSORY
+        </div>
+        <div class="h_product_list">
+                <ul>
+                        <li>
+                                 <a href="caseclick_a1ms.html">
+                                <div class="h1_wrap">
+                                <img src="ac_a1ms_main.png">
+                                <!--<div id="h1_case_color"></div>-->
+                                <div class="h_product_white">
+                                        <h>A1MS</h>
+                                          <br><br>
+                                        <div class="h1_casename">Aluminum Monitor Stand</div>
+                                </div>
+                                </div> 
+                                </a>
+                        </li>
+                         <li>
+                                 <a href="caseclick_ls1al.html">
+                                <div class="h1_wrap">
+                                <img src="ac_ls1al_main.png">
+                                <div class="h_product_white">
+                                        <h>LS1AL</h>
+                                          <br><br>
+                                        <div class="h1_casename">Aluminum Foldable<br> Laptop Stand</div>
+                                </div>
+                                </div> 
+                                </a>
+                        </li>
+                        <li>
+                                <a href="caseclick_als100.html">
+                               <div class="h1_wrap">
+                               <img src="als100_main_01.png">
+                               <div class="h_product_white">
+                                       <h>ALS100</h>
+                                         <br><br>
+                                       <div class="h1_casename">Aluminum Foldable<br> Laptop Stand</div>
+                               </div>
+                               </div> 
+                               </a>
+                        </li>
+                        <li>
+                         <a href="caseclick_als200.html">
+                        <div class="h1_wrap">
+                        <img src="als200_main_01.png">
+                        <div class="h_product_white">
+                                <h>ALS200</h>
+                                  <br><br>
+                                <div class="h1_casename">Aluminum Laptop Stand </div>
                         </div>
-                    </div>
-                    <div class="arrow">
-                                <img id="left" src="arrow_left.png">
-                                <img id="right" src="arrow_right.png">
-                    </div>
+                        </div> 
+                        </a>
+                        </li>
+                         <li>
+                                 <a href="caseclick_als300.html">
+                                <div class="h1_wrap">
+                                <img src="ALS300_main_01.png">
+                                <div class="h_product_white">
+                                        <h>ALS300</h>
+                                          <br><br>
+                                        <div class="h1_casename">Aluminum Laptop Stand</div>
+                                </div>
+                                </div> 
+                                </a>
+                        </li>
+                        <li>
+                                <a href="caseclick_als400.html">
+                               <div class="h1_wrap">
+                               <img src="ALS400_main_01.jpg">
+                               <div class="h_product_white">
+                                       <h>ALS400</h>
+                                         <br><br>
+                                       <div class="h1_casename">Aluminum Foldable<br> Laptop Stand</div>
+                               </div>
+                               </div> 
+                               </a>
+                    
+               </li>
+      
+          
+                        
+                </ul>
+        </div>
+        </div>
 
 
-    </div>
-
--->
-
-
-
-<div class="wrapper_middle_bg">
 
 
 
 
-<div class="subject">
-         <div class="wrapper_middle">
-             <div class="middle_title"><li> EXPLORE PRODUCTS </li>
-             <li class="title_sub"> extraordinary design and designed to inspire. </li></div>
 
-                    <div class="middle_img_wrapper">
-                      <ul>
-                         <li><a href="caseclick_m8_01.html"><img src="m8_main_01.jpg"></a></li>
-                         <li><a href="re_home3_1211_keyboard.html"><img src="img02.png"></a></li>
-                         <li><a href="re_home3_1211_accessory.html"><img src="img03.png"></a></li>
-                         <li><a href="caseclick_h4_01.html"><img src="main_m_h4.png"></a></li>
-                      </ul>
-                    </div>
-
-         </div>
 </div>
-</div>
 
-</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!--홈화면내용끝-->
-
 
 <div class="footer">
         <div class="footer_p">
@@ -746,7 +719,7 @@ Hammertech korea Co., Ltd<br><br>
 </div>
 <div class="ft_sub_p">
 
-Korea Office ｜ 6F 104 Office, 147, Yanghwa-ro, Mapo-gu, Seoul,Korea 03995 <br>
+Korea Office ｜ 6F 104 Office, 147, Yanghwa-ro, Mapo-gu, Seoul,Korea 03995  <br>
 E-mail : daniel@hammertech.co.kr</div>
 </p> 
 
@@ -767,19 +740,6 @@ E-mail : daniel@hammertech.co.kr</div>
 
 
 
-
-
-<!-- 홈화면 슬라이드 -->
-	<script>
-    $('#testDiv').viSimpleSlider({
-            ease : 'easeOutQuart',
-            autoPlay : true,
-      
-            autoTime : 6000,
-            speed : 400,
-            desktopSwipe : true
-        });    
-    </script>
 
 
 
